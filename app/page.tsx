@@ -130,49 +130,143 @@ export default function Home() {
 </section>
 
       {/* PRICING */}
-      <section className="max-w-6xl mx-auto px-6 pb-28">
-
-        <p className="uppercase tracking-[0.35em] text-zinc-500 text-sm mb-10">
+ export default function PricingSection() {
+  return (
+    <section className="max-w-7xl mx-auto px-6 py-32 text-white">
+      <div className="text-center mb-20">
+        <p className="uppercase tracking-[0.35em] text-zinc-500 text-sm mb-6">
           Pricing
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <h2 className="text-5xl md:text-7xl font-semibold tracking-tight mb-6">
+          Cinematic AI Videos
+        </h2>
 
-          <div className="border border-white/10 rounded-[2rem] p-8">
-            <h3 className="text-3xl font-semibold mb-4">Basic</h3>
-            <p className="text-5xl font-semibold mb-6">€90</p>
+        <p className="text-zinc-400 text-lg max-w-3xl mx-auto leading-relaxed">
+          AI-driven cinematic visuals for brands, businesses,
+          fashion campaigns and luxury storytelling.
+        </p>
+      </div>
 
-            <div className="space-y-3 text-zinc-400">
-              <p>15-20 sec cinematic reel</p>
-              <p>1 concept</p>
-              <p>2 revision</p>
-            </div>
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+
+        {/* BASIC */}
+        <div className="rounded-[2rem] border border-white/10 bg-zinc-950 p-10">
+          <div className="mb-12">
+            <h3 className="text-2xl tracking-[0.2em] uppercase mb-6">
+              Basic
+            </h3>
+
+            <p className="text-zinc-500 uppercase tracking-[0.3em] text-sm mb-4">
+              From
+            </p>
+
+            <h4 className="text-6xl font-semibold tracking-tight mb-4">
+              €90
+            </h4>
+
+            <p className="text-zinc-500 uppercase tracking-[0.2em] text-sm">
+              Up to 20 Seconds
+            </p>
           </div>
 
-          <div className="border border-white/20 rounded-[2rem] p-8 bg-zinc-950">
-            <h3 className="text-3xl font-semibold mb-4">Standard</h3>
-            <p className="text-5xl font-semibold mb-6">€180</p>
-
-            <div className="space-y-3 text-zinc-400">
-              <p>20–35 sec commercial</p>
-              <p>Cinematic editing</p>
-              <p>3 revisions</p>
-            </div>
+          <div className="space-y-4 text-zinc-300">
+            <p>• 1 concept</p>
+            <p>• Cinematic AI video
+            <p>• Logo integration</p></p>
+            <p>• Professional editing</p>
+            <p>• Basic sound design</p>
+            <p>• 1 revision</p>
           </div>
-
-          <div className="border border-white/10 rounded-[2rem] p-8">
-            <h3 className="text-3xl font-semibold mb-4">Premium</h3>
-            <p className="text-5xl font-semibold mb-6">€300+</p>
-
-            <div className="space-y-3 text-zinc-400">
-              <p>Luxury visual campaign</p>
-              <p>Advanced cinematic production</p>
-              <p>Priority workflow</p>
-            </div>
-          </div>
-
         </div>
-      </section>
+
+        {/* STANDARD */}
+        <div className="rounded-[2rem] border border-white/20 bg-zinc-900 p-10">
+          <div className="mb-12">
+            <h3 className="text-2xl tracking-[0.2em] uppercase mb-6">
+              Standard
+            </h3>
+
+            <p className="text-zinc-500 uppercase tracking-[0.3em] text-sm mb-4">
+              From
+            </p>
+
+            <h4 className="text-6xl font-semibold tracking-tight mb-4">
+              €150
+            </h4>
+
+            <p className="text-zinc-500 uppercase tracking-[0.2em] text-sm">
+              Up to 30 Seconds
+            </p>
+          </div>
+
+          <div className="space-y-4 text-zinc-300">
+            <p>• 1–2 concepts</p>
+            <p>• Multiple cinematic shots</p>
+            <p>• Professional editing & pacing</p>
+            <p>• Sound design / music
+            <p>• Logo integration</p></p>
+            <p>• 2 revisions</p>
+          </div>
+        </div>
+
+        {/* PREMIUM */}
+        <div className="rounded-[2rem] border border-white/10 bg-zinc-950 p-10">
+          <div className="mb-12">
+            <h3 className="text-2xl tracking-[0.2em] uppercase mb-6">
+              Premium
+            </h3>
+
+            <p className="text-zinc-500 uppercase tracking-[0.3em] text-sm mb-4">
+              From
+            </p>
+
+            <h4 className="text-6xl font-semibold tracking-tight mb-4">
+              €250
+            </h4>
+
+            <p className="text-zinc-500 uppercase tracking-[0.2em] text-sm">
+              30+ Seconds
+            </p>
+          </div>
+
+          <div className="space-y-4 text-zinc-300">
+            <p>• Advanced cinematic storytelling</p>
+            <p>• Color grading & sound design</p>
+            <p>• Branding & logo integration</p>
+            <p>• Multiple formats</p>
+            <p>• 3 revisions</p>
+          </div>
+        </div>
+
+      </div>
+
+      <div className="mt-10 rounded-[2rem] border border-white/10 bg-zinc-950 px-8 py-6 flex flex-col md:flex-row md:items-center md:justify-between gap-6 text-zinc-400">
+
+        <div>
+          <p className="uppercase tracking-[0.25em] text-sm text-zinc-500 mb-2">
+            Please Note
+          </p>
+
+          <p>
+            Additional revisions or advanced requests may affect final pricing.
+          </p>
+        </div>
+
+        <div>
+          <p className="uppercase tracking-[0.25em] text-sm text-zinc-500 mb-2">
+            Delivery Time
+          </p>
+
+          <p>
+            Usually 3–7 working days depending on project complexity.
+          </p>
+        </div>
+
+      </div>
+    </section>
+  )
+}
 
       {/* CONTACT */}
       <section className="border-t border-white/10">
