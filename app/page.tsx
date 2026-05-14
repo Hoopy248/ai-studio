@@ -19,7 +19,7 @@ export default function Home() {
           <div className="max-w-6xl mx-auto px-6">
 
             <p className="uppercase tracking-[0.35em] text-zinc-400 text-sm mb-6">
-              AI Cinematic Visuals
+              AI Creative Studio
             </p>
 
             <h1 className="text-6xl md:text-8xl font-semibold tracking-tight leading-none mb-8">
@@ -63,12 +63,12 @@ export default function Home() {
         </p>
 
         <h2 className="text-4xl md:text-6xl font-semibold tracking-tight leading-tight mb-10">
-          AI-native cinematic storytelling
+          AI-native visual storytelling
           for modern brands and visual campaigns.
         </h2>
 
         <p className="text-zinc-400 text-lg leading-relaxed max-w-3xl">
-          I create atmospheric AI-driven visuals focused on cinematic
+          I create atmospheric AI-driven visuals focused on multi-scene visual sequence
           realism, luxury aesthetics, emotional storytelling,
           and modern social-first campaigns.
         </p>
@@ -142,8 +142,8 @@ export default function Home() {
     </h2>
 
     <p className="text-zinc-400 text-lg max-w-3xl mx-auto leading-relaxed">
-      AI-driven cinematic visuals for brands, businesses,
-      fashion campaigns and luxury storytelling.
+      AI-generated visuals for brands, 
+      fashion campaigns and modern storytelling.
     </p>
   </div>
 
@@ -235,7 +235,7 @@ export default function Home() {
       </div>
 
       <div className="space-y-4 text-zinc-300">
-        <p>• Advanced cinematic storytelling</p>
+        <p>• Advanced visual direction</p>
         <p>• Color grading & sound design</p>
         <p>• Branding & logo integration</p>
         <p>• Multiple formats</p>
