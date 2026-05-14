@@ -130,8 +130,6 @@ export default function Home() {
 </section>
 
       {/* PRICING */}
- export default function PricingSection() {
-  return (
     <section className="max-w-7xl mx-auto px-6 py-32 text-white">
       <div className="text-center mb-20">
         <p className="uppercase tracking-[0.35em] text-zinc-500 text-sm mb-6">
@@ -200,73 +198,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="space-y-4 text-zinc-300">
-            <p>• 1–2 concepts</p>
-            <p>• Multiple cinematic shots</p>
-            <p>• Professional editing & pacing</p>
-            <p>• Sound design / music
-            <p>• Logo integration</p></p>
-            <p>• 2 revisions</p>
-          </div>
-        </div>
-
-        {/* PREMIUM */}
-        <div className="rounded-[2rem] border border-white/10 bg-zinc-950 p-10">
-          <div className="mb-12">
-            <h3 className="text-2xl tracking-[0.2em] uppercase mb-6">
-              Premium
-            </h3>
-
-            <p className="text-zinc-500 uppercase tracking-[0.3em] text-sm mb-4">
-              From
-            </p>
-
-            <h4 className="text-6xl font-semibold tracking-tight mb-4">
-              €250
-            </h4>
-
-            <p className="text-zinc-500 uppercase tracking-[0.2em] text-sm">
-              30+ Seconds
-            </p>
-          </div>
-
-          <div className="space-y-4 text-zinc-300">
-            <p>• Advanced cinematic storytelling</p>
-            <p>• Color grading & sound design</p>
-            <p>• Branding & logo integration</p>
-            <p>• Multiple formats</p>
-            <p>• 3 revisions</p>
-          </div>
-        </div>
-
-      </div>
-
-      <div className="mt-10 rounded-[2rem] border border-white/10 bg-zinc-950 px-8 py-6 flex flex-col md:flex-row md:items-center md:justify-between gap-6 text-zinc-400">
-
-        <div>
-          <p className="uppercase tracking-[0.25em] text-sm text-zinc-500 mb-2">
-            Please Note
-          </p>
-
-          <p>
-            Additional revisions or advanced requests may affect final pricing.
-          </p>
-        </div>
-
-        <div>
-          <p className="uppercase tracking-[0.25em] text-sm text-zinc-500 mb-2">
-            Delivery Time
-          </p>
-
-          <p>
-            Usually 3–7 working days depending on project complexity.
-          </p>
-        </div>
-
-      </div>
     </section>
-  )
-}
 
       {/* CONTACT */}
       <section className="border-t border-white/10">
