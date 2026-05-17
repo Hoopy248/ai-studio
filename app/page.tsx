@@ -69,7 +69,7 @@ export default function Home() {
 <img
   src="/novythlogo2.png"
   alt="Novyth"
-  className="h-14 w-auto mb-8 opacity-90"
+  className="h-24 w-auto mb-8 opacity-90"
 />
       <p className="uppercase tracking-[0.35em] text-zinc-500 text-sm mb-6">
         AI CREATIVE STUDIO
