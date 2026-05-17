@@ -1,7 +1,39 @@
 export default function Home() {
   return (
     <main className="bg-black text-white min-h-screen font-sans">
+<nav className="fixed top-0 left-0 w-full z-50 backdrop-blur-md bg-black/30 border-b border-white/10">
 
+  <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+
+    <div className="flex items-center gap-4">
+
+      <img
+        src="/novyth-logo.png"
+        alt="Novyth"
+        className="h-10 w-auto"
+      />
+
+    </div>
+
+    <div className="hidden md:flex items-center gap-8 text-sm text-zinc-400">
+
+      <a href="#work" className="hover:text-white transition-colors">
+        Work
+      </a>
+
+      <a href="#pricing" className="hover:text-white transition-colors">
+        Pricing
+      </a>
+
+      <a href="#contact" className="hover:text-white transition-colors">
+        Contact
+      </a>
+
+    </div>
+
+  </div>
+
+</nav>
       {/* HERO */}
       <section className="relative h-screen overflow-hidden">
 
