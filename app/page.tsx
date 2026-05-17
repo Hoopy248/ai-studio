@@ -9,9 +9,9 @@ export default function Home() {
     <div className="flex items-center gap-5">
 
       <img
-        src="/novythlogo2.png"
+        src="/logo.png"
         alt="Novyth"
-        className="h-32 w-auto object-contain"
+        className="h-20 w-auto object-contain"
       />
 
     </div>
