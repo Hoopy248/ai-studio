@@ -1,31 +1,42 @@
 export default function Home() {
   return (
     <main className="bg-black text-white min-h-screen font-sans">
-<nav className="fixed top-0 left-0 w-full z-50 backdrop-blur-md bg-black/30 border-b border-white/10">
+<nav className="fixed top-6 left-1/2 -translate-x-1/2 z-50 w-[92%]">
 
-  <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+  <div className="backdrop-blur-xl bg-black/30 border border-white/10 rounded-full px-8 py-5 flex items-center justify-between shadow-2xl">
 
-    <div className="flex items-center gap-4">
+    {/* LOGO */}
+    <div className="flex items-center gap-5">
 
       <img
-        src="/novyth-logo.png"
+        src="/novythlogo2.png"
         alt="Novyth"
-        className="h-14 w-auto"
+        className="h-12 w-auto object-contain"
       />
 
     </div>
 
-    <div className="hidden md:flex items-center gap-8 text-sm text-zinc-400">
+    {/* NAV LINKS */}
+    <div className="hidden md:flex items-center gap-12 text-sm text-zinc-300">
 
-      <a href="#work" className="hover:text-white transition-colors">
+      <a
+        href="#work"
+        className="hover:text-white transition-colors duration-300"
+      >
         Work
       </a>
 
-      <a href="#pricing" className="hover:text-white transition-colors">
+      <a
+        href="#pricing"
+        className="hover:text-white transition-colors duration-300"
+      >
         Pricing
       </a>
 
-      <a href="#contact" className="hover:text-white transition-colors">
+      <a
+        href="#contact"
+        className="hover:text-white transition-colors duration-300"
+      >
         Contact
       </a>
 
