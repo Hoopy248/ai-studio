@@ -10,7 +10,7 @@ export default function Home() {
       <img
         src="/novyth-logo.png"
         alt="Novyth"
-        className="h-10 w-auto"
+        className="h-14 w-auto"
       />
 
     </div>
@@ -162,7 +162,7 @@ export default function Home() {
 </section>
 
       {/* PRICING */}
-<section className="max-w-7xl mx-auto px-6 py-32 text-white">
+<section id="pricing" className="max-w-7xl mx-auto px-6 py-32 text-white">
 
   <div className="text-center mb-20">
     <p className="uppercase tracking-[0.35em] text-zinc-500 text-sm mb-6">
@@ -304,7 +304,7 @@ export default function Home() {
 
 </section>
       {/* CONTACT */}
-      <section className="border-t border-white/10">
+      <section id="contact" className="border-t border-white/10">
 
         <div className="max-w-5xl mx-auto px-6 py-24">
 
