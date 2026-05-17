@@ -1,9 +1,9 @@
 export default function Home() {
   return (
     <main className="bg-black text-white min-h-screen font-sans">
-<nav className="fixed top-6 left-1/2 -translate-x-1/2 z-50 w-[92%]">
+<nav className="fixed top-6 left-1/2 -translate-x-1/2 z-50 w-[80%]">
 
-  <div className="backdrop-blur-xl bg-black/30 border border-white/10 rounded-full px-8 py-5 flex items-center justify-between shadow-2xl">
+  <div className="backdrop-blur-xl bg-black/30 border border-white/10 rounded-full px-8 py-3 flex items-center justify-between shadow-2xl">
 
     {/* LOGO */}
     <div className="flex items-center gap-5">
@@ -11,7 +11,7 @@ export default function Home() {
       <img
         src="/novythlogo2.png"
         alt="Novyth"
-        className="h-12 w-auto object-contain"
+        className="h-20 w-auto object-contain"
       />
 
     </div>
