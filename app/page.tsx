@@ -17,30 +17,38 @@ export default function Home() {
     </div>
 
     {/* NAV LINKS */}
-    <div className="hidden md:flex items-center gap-12 text-sm text-zinc-300">
+    <div className="hidden md:flex items-center gap-10">
 
-      <a
-        href="#work"
-        className="hover:text-white transition-colors duration-300"
-      >
-        Work
-      </a>
+  <a
+    href="#work"
+    className="text-sm text-zinc-300 hover:text-white transition-colors"
+  >
+    Work
+  </a>
 
-      <a
-        href="#pricing"
-        className="hover:text-white transition-colors duration-300"
-      >
-        Pricing
-      </a>
+  <a
+    href="#pricing"
+    className="text-sm text-zinc-300 hover:text-white transition-colors"
+  >
+    Pricing
+  </a>
 
-      <a
-        href="#contact"
-        className="hover:text-white transition-colors duration-300"
-      >
-        Contact
-      </a>
+  <a
+    href="#contact"
+    className="text-sm text-zinc-300 hover:text-white transition-colors"
+  >
+    Contact
+  </a>
 
-    </div>
+  <a
+    href="https://ai-studio-five-beta.vercel.app/"
+    target="_blank"
+    className="px-5 py-2.5 rounded-full bg-white text-black text-sm font-medium hover:bg-zinc-200 transition-all duration-300"
+  >
+    Portfolio
+  </a>
+
+</div>
 
   </div>
 
