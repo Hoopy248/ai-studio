@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <main className="bg-black text-white min-h-screen font-sans">
-<nav className="fixed top-6 left-1/2 -translate-x-1/2 z-50 w-[80%]">
+<nav className="fixed top-6 left-1/2 -translate-x-1/2 z-50 w-[75%]">
 
   <div className="backdrop-blur-xl bg-black/30 border border-white/10 rounded-full px-8 py-3 flex items-center justify-between shadow-2xl">
 
@@ -46,57 +46,69 @@ export default function Home() {
 
 </nav>
       {/* HERO */}
-      <section className="relative h-screen overflow-hidden">
+<section className="relative min-h-screen overflow-hidden">
 
-        <video
-          autoPlay
-          muted
-          loop
-          playsInline
-          className="absolute inset-0 w-full h-full object-cover opacity-40"
+  {/* BACKGROUND VIDEO */}
+  <video
+    autoPlay
+    muted
+    loop
+    playsInline
+    className="absolute inset-0 w-full h-full object-cover opacity-40 blur-[2px]"
+  >
+    <source src="/videos/Surreal dreamlike.mp4" type="video/mp4" />
+  </video>
+
+  {/* DARK OVERLAY */}
+  <div className="absolute inset-0 bg-black/70" />
+
+  {/* CONTENT */}
+  <div className="relative z-10 max-w-7xl mx-auto px-10 min-h-screen flex items-center">
+
+    <div className="max-w-2xl">
+<img
+  src="/novythlogo2.png"
+  alt="Novyth"
+  className="h-14 w-auto mb-8 opacity-90"
+/>
+      <p className="uppercase tracking-[0.35em] text-zinc-500 text-sm mb-6">
+        AI CREATIVE STUDIO
+      </p>
+
+      <h1 className="text-7xl md:text-8xl font-semibold leading-[0.95] tracking-tight mb-8">
+        Cinematic AI
+        <br />
+        for Brands
+      </h1>
+
+      <p className="text-zinc-300 text-xl leading-relaxed max-w-xl mb-10">
+        Atmospheric AI-driven commercials, fashion visuals,
+        luxury storytelling and cinematic social content.
+      </p>
+
+      <div className="flex gap-5">
+
+        <a
+          href="#work"
+          className="px-8 py-4 rounded-full bg-white text-black font-medium hover:bg-zinc-200 transition-all"
         >
-          <source src="/videos/hero.mp4" type="video/mp4" />
-        </video>
+          View Work
+        </a>
 
-        <div className="relative z-10 h-full flex items-center">
-          <div className="max-w-6xl mx-auto px-6">
+        <a
+          href="#contact"
+          className="px-8 py-4 rounded-full border border-white/20 text-white hover:bg-white/10 transition-all"
+        >
+          Contact
+        </a>
 
-            <p className="uppercase tracking-[0.35em] text-zinc-400 text-sm mb-6">
-              AI Creative Studio
-            </p>
+      </div>
 
-            <h1 className="text-6xl md:text-8xl font-semibold tracking-tight leading-none mb-8">
-              Cinematic AI
-              <br />
-              for Brands
-            </h1>
+    </div>
 
-            <p className="text-zinc-300 text-lg md:text-xl max-w-2xl leading-relaxed mb-10">
-              Atmospheric AI-driven commercials, fashion visuals,
-              luxury storytelling, and cinematic social content.
-            </p>
+  </div>
 
-            <div className="flex flex-wrap gap-4">
-
-              <a
-                href="#work"
-                className="px-6 py-3 rounded-2xl bg-white text-black font-medium"
-              >
-                View Work
-              </a>
-
-              <a
-                href="https://ai-portfolio-seven-sigma.vercel.app/"
-                target="_blank"
-                className="px-6 py-3 rounded-2xl border border-white/20"
-              >
-                Full Portfolio
-              </a>
-
-            </div>
-          </div>
-        </div>
-      </section>
+</section>
 
       {/* ABOUT */}
       <section className="max-w-5xl mx-auto px-6 py-28">
