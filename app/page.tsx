@@ -11,7 +11,7 @@ export default function Home() {
       <img
         src="/novythlogo2.png"
         alt="Novyth"
-        className="h-26 w-auto object-contain"
+        className="h-32 w-auto object-contain"
       />
 
     </div>
