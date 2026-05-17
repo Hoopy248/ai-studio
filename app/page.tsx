@@ -352,11 +352,11 @@ export default function Home() {
           <div className="space-y-4 text-zinc-400 text-lg">
 
             <p>
-              alexei.pertsev2@email.com
+              novyth.studio@gmail.com
             </p>
 
             <p>
-              Instagram: @a_pertsev_
+              Instagram: @novyth.studio
             </p>
 
           </div>
