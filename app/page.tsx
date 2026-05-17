@@ -41,7 +41,7 @@ export default function Home() {
   </a>
 
   <a
-    href="https://ai-studio-five-beta.vercel.app/"
+    href="https://ai-portfolio-seven-sigma.vercel.app/"
     target="_blank"
     className="px-5 py-2.5 rounded-full bg-white text-black text-sm font-medium hover:bg-zinc-200 transition-all duration-300"
   >
