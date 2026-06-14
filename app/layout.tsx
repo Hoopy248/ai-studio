@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     siteName: "NOVYTH",
     images: [
       {
-        url: "/og-image.jpg",
+        url: "/og-image.png",
         width: 1200,
         height: 630,
       },
