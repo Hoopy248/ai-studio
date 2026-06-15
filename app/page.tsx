@@ -131,9 +131,7 @@ export default function Home() {
         </h2>
 
         <p className="text-zinc-400 text-lg leading-relaxed max-w-3xl">
-          I create atmospheric AI-driven visuals focused on multi-scene visual sequence
-          realism, luxury aesthetics, emotional storytelling,
-          and modern social-first campaigns.
+          NOVYTH creates cinematic commercials, product advertisements and social-first content powered by modern AI workflows.
         </p>
 
       </section>
