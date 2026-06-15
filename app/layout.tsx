@@ -13,17 +13,20 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "NOVYTH | AI Creative Studio",
-  description: "Cinematic AI commercials for modern brands.",
+  title: "NOVYTH | AI Creative Studio for Modern Brands",
+
+  description:
+    "AI-native creative studio creating cinematic commercials, product advertisements and social-first content for modern brands.",
 
   openGraph: {
-    title: "NOVYTH",
-    description: "Cinematic AI commercials for modern brands.",
+    title: "NOVYTH | AI Creative Studio",
+    description:
+      "Cinematic commercials, product ads and social-first content powered by AI.",
     url: "https://novyth.org",
     siteName: "NOVYTH",
     images: [
       {
-        url: "/og-image.png",
+        url: "https://novyth.org/og-image.png",
         width: 1200,
         height: 630,
       },
