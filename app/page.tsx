@@ -147,7 +147,7 @@ export default function Home() {
 
   <div
   id="campaigns"
-  className="flex gap-6 overflow-x-auto pb-4 snap-x snap-mandatory scroll-smooth"
+  className="flex gap-6 overflow-x-auto pb-4 snap-x snap-mandatory"
 >
 
     {/* RITA ROW */}
