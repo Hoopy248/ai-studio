@@ -35,7 +35,7 @@ export default function CarouselButtons() {
   };
 
   return (
-    <div className="flex justify-end gap-3 mb-6">
+    <div className="hidden md:flex justify-end gap-3 mb-6">
       <button
         onClick={() => smoothScroll(-400)}
         className="w-12 h-12 rounded-full border border-white/10 bg-zinc-950 hover:bg-zinc-900 transition-all"

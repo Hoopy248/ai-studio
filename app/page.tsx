@@ -2,18 +2,17 @@ import CarouselButtons from "@/components/CarouselButtons";
 export default function Home() {
   return (
     <main className="bg-black text-white min-h-screen font-sans">
-<nav className="fixed top-6 left-1/2 -translate-x-1/2 z-50 w-[75%]">
+<nav className="fixed top-4 left-1/2 -translate-x-1/2 z-50 w-[92%] md:w-[75%]">
 
-  <div className="backdrop-blur-xl bg-black/30 border border-white/10 rounded-full px-8 py-3 flex items-center justify-between shadow-2xl">
-
+<div className="backdrop-blur-xl bg-black/30 border border-white/10 rounded-full px-4 md:px-8 py-3 flex items-center justify-between shadow-2xl">
     {/* LOGO */}
     <div className="flex items-center gap-5">
 
       <img
-        src="/logo.png"
-        alt="Novyth"
-        className="h-20 w-auto object-contain"
-      />
+    src="/logo.png"
+    alt="Novyth"
+    className="h-10 md:h-20 w-auto object-contain"
+    />
 
     </div>
 
@@ -84,7 +83,7 @@ export default function Home() {
         AI CREATIVE STUDIO
       </p>
 
-      <h1 className="text-7xl md:text-8xl font-semibold leading-[0.95] tracking-tight mb-8">
+      <h1 className="text-5xl md:text-8xl font-semibold leading-[0.95] tracking-tight mb-8">
         Cinematic AI
         <br />
         for Brands
@@ -95,7 +94,7 @@ export default function Home() {
         luxury storytelling and cinematic social content.
       </p>
 
-      <div className="flex gap-5">
+      <div className="flex flex-col md:flex-row gap-4 md:gap-5">
 
         <a
           href="#work"
