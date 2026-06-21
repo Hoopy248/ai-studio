@@ -216,7 +216,52 @@ export default function Home() {
       </div>
 
     </div>
+{/* Rahava Raamat */}
+    <div className="relative shrink-0 w-[320px] aspect-[9/16] rounded-[2rem] overflow-hidden border border-white/10 bg-zinc-950 snap-start">
 
+      <video
+        autoPlay
+        muted
+        loop
+        playsInline
+        className="w-full h-full object-cover"
+      >
+        <source src="/videos/rahva.mp4" type="video/mp4" />
+      </video>
+
+      <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent" />
+
+      <div className="absolute bottom-6 left-6">
+        <h3 className="text-xl font-semibold">Rahva Raamat</h3>
+        <p className="text-zinc-400 text-sm">
+          AI Commercial Concept
+        </p>
+      </div>
+
+    </div>
+    {/* Huckberry */}
+    <div className="relative shrink-0 w-[320px] aspect-[9/16] rounded-[2rem] overflow-hidden border border-white/10 bg-zinc-950 snap-start">
+
+      <video
+        autoPlay
+        muted
+        loop
+        playsInline
+        className="w-full h-full object-cover"
+      >
+        <source src="/videos/huckberry.mp4" type="video/mp4" />
+      </video>
+
+      <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent" />
+
+      <div className="absolute bottom-6 left-6">
+        <h3 className="text-xl font-semibold">Huckberry</h3>
+        <p className="text-zinc-400 text-sm">
+          AI Summer Campaign
+        </p>
+      </div>
+
+    </div>
   </div>
 
 </section>
