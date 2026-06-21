@@ -100,7 +100,7 @@ export default function Home() {
           href="#work"
           className="px-8 py-4 rounded-full bg-white text-black font-medium hover:bg-zinc-200 transition-all"
         >
-          View Work
+          Explore Campaigns
         </a>
 
         <a
@@ -142,8 +142,41 @@ export default function Home() {
   <p className="uppercase tracking-[0.35em] text-zinc-500 text-sm mb-6">
     Selected Concepts
   </p>
+<div className="flex justify-end gap-3 mb-6">
 
-  <div className="flex gap-6 overflow-x-auto pb-4 snap-x snap-mandatory">
+  <button
+    onClick={() => {
+      document
+        .getElementById("campaigns")
+        ?.scrollBy({
+          left: -400,
+          behavior: "smooth",
+        });
+    }}
+    className="w-12 h-12 rounded-full border border-white/10 bg-zinc-950 hover:bg-zinc-900 transition-all"
+  >
+    ←
+  </button>
+
+  <button
+    onClick={() => {
+      document
+        .getElementById("campaigns")
+        ?.scrollBy({
+          left: 400,
+          behavior: "smooth",
+        });
+    }}
+    className="w-12 h-12 rounded-full border border-white/10 bg-zinc-950 hover:bg-zinc-900 transition-all"
+  >
+    →
+  </button>
+
+</div>
+  <div
+  id="campaigns"
+  className="flex gap-6 overflow-x-auto pb-4 snap-x snap-mandatory scroll-smooth"
+>
 
     {/* RITA ROW */}
     <div className="relative shrink-0 w-[320px] aspect-[9/16] rounded-[2rem] overflow-hidden border border-white/10 bg-zinc-950 snap-start">
