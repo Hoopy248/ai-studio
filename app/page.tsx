@@ -140,7 +140,7 @@ export default function Home() {
 <section id="work" className="max-w-7xl mx-auto px-6 pb-28">
 
   <p className="uppercase tracking-[0.35em] text-zinc-500 text-sm mb-6">
-    Featured Campaigns
+    Selected Concepts
   </p>
 
   <div className="flex gap-6 overflow-x-auto pb-4 snap-x snap-mandatory">
@@ -157,7 +157,11 @@ export default function Home() {
       >
         <source src="/videos/ritarow.mp4" type="video/mp4" />
       </video>
-
+<div className="absolute top-4 left-4 z-10">
+  <span className="px-3 py-1 rounded-full bg-black/50 backdrop-blur-md text-[11px] uppercase tracking-wider border border-white/10">
+    Concept
+  </span>
+</div>
       <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent" />
 
       <div className="absolute bottom-6 left-6">
@@ -181,7 +185,11 @@ export default function Home() {
       >
         <source src="/videos/castlery.mp4" type="video/mp4" />
       </video>
-
+<div className="absolute top-4 left-4 z-10">
+  <span className="px-3 py-1 rounded-full bg-black/50 backdrop-blur-md text-[11px] uppercase tracking-wider border border-white/10">
+    Concept
+  </span>
+</div>
       <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent" />
 
       <div className="absolute bottom-6 left-6">
@@ -205,7 +213,11 @@ export default function Home() {
       >
         <source src="/videos/miners.mp4" type="video/mp4" />
       </video>
-
+<div className="absolute top-4 left-4 z-10">
+  <span className="px-3 py-1 rounded-full bg-black/50 backdrop-blur-md text-[11px] uppercase tracking-wider border border-white/10">
+    Concept
+  </span>
+</div>
       <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent" />
 
       <div className="absolute bottom-6 left-6">
@@ -228,7 +240,11 @@ export default function Home() {
       >
         <source src="/videos/rahva.mp4" type="video/mp4" />
       </video>
-
+<div className="absolute top-4 left-4 z-10">
+  <span className="px-3 py-1 rounded-full bg-black/50 backdrop-blur-md text-[11px] uppercase tracking-wider border border-white/10">
+    Concept
+  </span>
+</div>
       <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent" />
 
       <div className="absolute bottom-6 left-6">
@@ -251,7 +267,11 @@ export default function Home() {
       >
         <source src="/videos/huckberry.mp4" type="video/mp4" />
       </video>
-
+<div className="absolute top-4 left-4 z-10">
+  <span className="px-3 py-1 rounded-full bg-black/50 backdrop-blur-md text-[11px] uppercase tracking-wider border border-white/10">
+    Concept
+  </span>
+</div>
       <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent" />
 
       <div className="absolute bottom-6 left-6">
@@ -263,7 +283,16 @@ export default function Home() {
 
     </div>
   </div>
-
+<div className="flex justify-center mt-10">
+  <a
+    href="https://www.instagram.com/novyth.studio/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="px-8 py-4 rounded-full border border-white/10 bg-zinc-950 hover:bg-zinc-900 transition-all duration-300"
+  >
+    View All Campaigns →
+  </a>
+</div>
 </section>
 
       {/* PRICING */}
