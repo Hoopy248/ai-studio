@@ -260,6 +260,33 @@ export default function Home() {
       </div>
 
     </div>
+{/* Persian Dreams */}
+    <div className="relative shrink-0 w-[320px] aspect-[9/16] rounded-[2rem] overflow-hidden border border-white/10 bg-zinc-950 snap-start">
+
+      <video
+        autoPlay
+        muted
+        loop
+        playsInline
+        className="w-full h-full object-cover"
+      >
+        <source src="/videos/persiandreamsfix.mp4" type="video/mp4" />
+      </video>
+<div className="absolute top-4 left-4 z-10">
+  <span className="px-3 py-1 rounded-full bg-black/50 backdrop-blur-md text-[11px] uppercase tracking-wider border border-white/10">
+    Production
+  </span>
+</div>
+      <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent" />
+
+      <div className="absolute bottom-6 left-6">
+        <h3 className="text-xl font-semibold">Persian Dreams</h3>
+        <p className="text-zinc-400 text-sm">
+          AI Commercial Campaign
+        </p>
+      </div>
+
+    </div>
     {/* Huckberry */}
     <div className="relative shrink-0 w-[320px] aspect-[9/16] rounded-[2rem] overflow-hidden border border-white/10 bg-zinc-950 snap-start">
 
