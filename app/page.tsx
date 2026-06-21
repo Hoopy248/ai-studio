@@ -1,3 +1,4 @@
+import CarouselButtons from "@/components/CarouselButtons";
 export default function Home() {
   return (
     <main className="bg-black text-white min-h-screen font-sans">
@@ -142,7 +143,7 @@ export default function Home() {
   <p className="uppercase tracking-[0.35em] text-zinc-500 text-sm mb-6">
     Selected Concepts
   </p>
-
+<CarouselButtons />
 
   <div
   id="campaigns"
