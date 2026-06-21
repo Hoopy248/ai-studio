@@ -2,7 +2,7 @@ import CarouselButtons from "@/components/CarouselButtons";
 export default function Home() {
   return (
     <main className="bg-black text-white min-h-screen font-sans">
-<nav className="fixed top-4 left-1/2 -translate-x-1/2 z-50 w-[92%] md:w-[75%]">
+<nav className="hidden md:block fixed top-4 left-1/2 -translate-x-1/2 z-50 w-[75%]">
 
 <div className="backdrop-blur-xl bg-black/30 border border-white/10 rounded-full px-4 md:px-8 py-3 flex items-center justify-between shadow-2xl">
     {/* LOGO */}
