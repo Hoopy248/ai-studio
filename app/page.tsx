@@ -145,9 +145,9 @@ export default function Home() {
   </p>
 <CarouselButtons />
 
-  <div
+<div
   id="campaigns"
-  className="flex gap-6 overflow-x-auto pb-4 snap-x snap-mandatory"
+  className="flex gap-6 overflow-x-auto pb-4"
 >
 
     {/* RITA ROW */}
