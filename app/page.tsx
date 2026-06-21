@@ -136,58 +136,89 @@ export default function Home() {
 
       </section>
 
-{/* SHOWCASE */}
-<section id="work" className="max-w-6xl mx-auto px-6 pb-28">
+{/* FEATURED CAMPAIGNS */}
+<section id="work" className="max-w-7xl mx-auto px-6 pb-28">
 
   <p className="uppercase tracking-[0.35em] text-zinc-500 text-sm mb-6">
-    Selected Work
+    Featured Campaigns
   </p>
 
-  <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+  <div className="flex gap-6 overflow-x-auto pb-4 snap-x snap-mandatory">
 
-    {/* VERTICAL VIDEO */}
-    <div className="md:row-span-2 rounded-[2rem] overflow-hidden border border-white/10 bg-zinc-950">
+    {/* RITA ROW */}
+    <div className="relative shrink-0 w-[320px] aspect-[9/16] rounded-[2rem] overflow-hidden border border-white/10 bg-zinc-950 snap-start">
+
       <video
         autoPlay
         muted
         loop
         playsInline
-        controls
         className="w-full h-full object-cover"
       >
-        <source src="/videos/persiandreamsfix.mp4" type="video/mp4" />
+        <source src="/videos/ritarow.mp4" type="video/mp4" />
       </video>
+
+      <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent" />
+
+      <div className="absolute bottom-6 left-6">
+        <h3 className="text-xl font-semibold">Rita Row</h3>
+        <p className="text-zinc-400 text-sm">
+          AI Fashion Campaign
+        </p>
+      </div>
+
     </div>
 
-    {/* TOP RIGHT */}
-    <div className="md:col-span-2 rounded-[2rem] overflow-hidden border border-white/10 bg-zinc-950">
+    {/* CASTLERY */}
+    <div className="relative shrink-0 w-[320px] aspect-[9/16] rounded-[2rem] overflow-hidden border border-white/10 bg-zinc-950 snap-start">
+
       <video
         autoPlay
         muted
         loop
         playsInline
-        controls
         className="w-full h-full object-cover"
       >
-        <source src="/videos/editorial2.mp4" type="video/mp4" />
+        <source src="/videos/castlery.mp4" type="video/mp4" />
       </video>
+
+      <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent" />
+
+      <div className="absolute bottom-6 left-6">
+        <h3 className="text-xl font-semibold">Castlery</h3>
+        <p className="text-zinc-400 text-sm">
+          AI Commercial Concept
+        </p>
+      </div>
+
     </div>
 
-    {/* BOTTOM RIGHT */}
-    <div className="md:col-span-2 rounded-[2rem] overflow-hidden border border-white/10 bg-zinc-950">
+    {/* THE MINERS */}
+    <div className="relative shrink-0 w-[320px] aspect-[9/16] rounded-[2rem] overflow-hidden border border-white/10 bg-zinc-950 snap-start">
+
       <video
         autoPlay
         muted
         loop
         playsInline
-        controls
         className="w-full h-full object-cover"
       >
-        <source src="/videos/editorial1.mp4" type="video/mp4" />
+        <source src="/videos/miners.mp4" type="video/mp4" />
       </video>
+
+      <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent" />
+
+      <div className="absolute bottom-6 left-6">
+        <h3 className="text-xl font-semibold">The Miners Coffee</h3>
+        <p className="text-zinc-400 text-sm">
+          AI Lifestyle Campaign
+        </p>
+      </div>
+
     </div>
 
   </div>
+
 </section>
 
       {/* PRICING */}
